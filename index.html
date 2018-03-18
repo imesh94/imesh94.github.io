@@ -1,9 +1,301 @@
-<html>
-
-<head><titile>Imesh Umayanga | Personal Website</title></head>
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+    <title>Imesh Umayanga | Personal Website</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="usericon.ico">  
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <!-- github acitivity css -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+    <link rel="stylesheet" href="http://caseyscarborough.github.io/github-activity/github-activity-0.1.0.min.css">
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+</head> 
 
 <body>
-  <p>Hello!...</p>
+    <!-- ******HEADER****** --> 
+    <header class="header">
+        <div class="container">                       
+            <img class="profile-image img-responsive pull-left" src="assets/images/profile.png" alt="Imesh Umayanga" />
+            <div class="profile-content pull-left">
+                <h1 class="name">Imesh Umayanga</h1>
+                <h2 class="desc">Computer Science and Technology Undergraduate</h2>   
+                <ul class="social list-inline">
+                    <li><a href="https://www.linkedin.com/in/imesh-perera" target="blank"><i class="fa fa-linkedin"></i></a></li>                   
+                    <li><a href="https://www.facebook.com/imesh.umayanga.5" target="blank"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="mailto:imeshuperera@gmail.com"><i class="fa fa-google"></i></a></li>              
+                    <li class="last-item"><a href="https://github.com/imesh94" target="blank"><i class="fa fa-github"></i></a></li>                 
+                </ul> 
+            </div><!--//profile-->
+            <a class="btn btn-cta-primary pull-right" href="assets/docs/CV.pdf" target="_blank"><i class="fa fa-paper-plane"></i>Download Resume</a>              
+        </div><!--//container-->
+    </header><!--//header-->
+    
+    <div class="container sections-wrapper">
+        <div class="row">
+            <div class="primary col-md-8 col-sm-12 col-xs-12">
+                <section class="about section">
+                    <div class="section-inner">
+                        <h2 class="heading">About Me</h2>
+                        <div class="content">
+                            <p>I am a Technology Enthusiast and a Web Developer. Currently pursuing a B.Sc degree (will be graduating in 2019). I like to share my knowledge with others and learn what I don't know from them. I can work alone or as a part of a team while adapting myself to challenging environments. Most of all I like to work with friendly, honest and successful people, because they inspire me and make me believe that I can be successful while protecting my integrity.</p>    
+         
+        <p>Talking about my personal interests, I love movies, music and classic motorcycles.(I am a bit of a guitarist and a mechanic myself ;) ) I also like to meet new people and travel to new places once in a while.</p>
+                         
+                        </div><!--//content-->
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+    
+               <section class="latest section">
+                    <div class="section-inner">
+                        <h2 class="heading">Latest Projects</h2>
+                        <div class="content">    
+                                               
+                            <div class="item featured text-center">
+                                <h3 class="title"><a href="#" target="">Landmark Recognition System</a></h3>
+                                <p class="summary">This project involves developing a methodology to recognize popular landmarks using Image Processing and Machine Learning.</p>
+                                <div class="featured-image">
+                                    <a href="#" target="">
+                                    <img class="img-responsive project-image" src="assets/images/projects/project-featured.png" alt="landmark-recognition-system" />
+                                    </a>
+                                    <div class="ribbon">
+                                        <div class="text">OnGoing</div>
+                                        </div>
+                                    </div>
+                                    
+                                <div class="desc text-left">                                    
+                                    <p>This is a group project and our final year research project. The objective of the project is to find out the Image Processing and Machine Learning algorithms which gives out the best results on identifying the landmarks(by name).</p>
+                                    <p>The project is still at initial stage and we are willing to use Python(TensorFlow) and Amazon Web Services for this project.</p>
+									<p>More details: <a href="https://www.kaggle.com/c/landmark-recognition-challenge#description">https://www.kaggle.com/c/landmark-recognition-challenge#description</a></p>
+                                </div><!--//desc-->         
+                                                
+                            </div><!--//item-->
+                            <hr class="divider" />
+                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="#" target="">
+                                <img class="img-responsive project-image" src="assets/images/projects/project-4.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="" target="">Hospital Management System</a> <span class="label label-theme">JSP</span></h3>
+                                    <p>This is a hospital management system we created for 9Arch Hospitals (of course an imaginary hospital :) ) in order to put our hands on JSP. It has features to manage the Doctors, Nurses and the Wards in the hospital.</p>
+                                    <p><a class="more-link" href="" target="">
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="#" target="">
+                                <img class="img-responsive project-image" src="assets/images/projects/project-1.png" alt="bird-life" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="https://wrapbootstrap.com/theme/tempo-designed-for-startups-WB07364T3?ref=3wm" target="_blank">Bird Life | Kurulu Potha</a> <span class="label label-theme">PHP</span></h3>
+                                    <p>This is a web application created targeting Birdwatchers. It has a location recommending system based on user preferences and statistics collected from other users. A social platform dedicated for birdwatchers is also provided.</p>
+                                    <p><a class="more-link" href="https://kurulupotha.000webhostapp.com/index.php" target="_blank"><i class="fa fa-external-link"></i> Preview</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="#" target="">
+                                <img class="img-responsive project-image" src="assets/images/projects/project-2.png" alt="namunu" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="" target="_blank">Namunu Translator</a> <span class="label label-theme">.NET</span></h3>
+                                    <p>This is a realtime English to Sinhala translator which supports almost all popular desktop applications. Has the ability to translate sentences.(Uses Google translate API)</p>
+                                    <p><a class="more-link" href="https://www.youtube.com/watch?v=bVjJfjjenh8" target="_blank"><i class="fa fa-external-link"></i>Preview</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+                
+                <section class="projects section">
+                    <div class="section-inner">
+                        <h2 class="heading">Other Projects</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title"><a href="#">Research data keeping system</a> <span class="label label-theme">JavaScript</span></h3>
+                                <p class="summary">Data keeping system for a sero-epidemiological study to provide supportive evidence to establish malaria elimination in Sri Lanka. I started this project in order to help a friend of mine who is pursuing his MPhil, and to get my hands on full-stack JavaScript development and MongoDB.</p>
+                                <p><a class="more-link" href="#" target=""><i class="fa fa-external-link"></i>Find out more</a></p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"><a href="#">Management System for a Video Rental Store</a> <span class="label label-theme">.NET</span></h3>
+                                <p class="summary">This project is my first successful project. Developed this for my father's shop to keep records of the daily transactions. Used an Access databse to keep the records</p>
+                                <p><a class="more-link" href="#" target=""><i class="fa fa-external-link"></i>Find out more</a></p>
+                            </div><!--//item-->
+                            
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+                
+                <section class="experience section">
+                    <div class="section-inner">
+                        <h2 class="heading">Work Experience</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">Part Time Web Developer - <span class="place"><a href="#">VMD Consultants</a></span> <span class="year">(2016 Oct - 2018 Mar)</span></h3>
+                                <p>I have completed many Wordpress projects and maintained one PHP project for VMD Consultants. My main objective here was gaining work experience while completing my work as expected by the company.</p>
+								<p><a href="http://vmdconsultants.co.uk/" target="blank">www.vmdconsultants.co.uk/</a></p>
+                            </div><!--//item-->
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+                
+				
+            </div><!--//primary-->
+            <div class="secondary col-md-4 col-sm-12 col-xs-12">
+                 <aside class="info aside section">
+                    <div class="section-inner">
+                        <h2 class="heading sr-only">Basic Information</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Bandaragama, Sri Lanka</li>
+                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="mailto:imeshuperera@gmail.com">imeshuperera@gmail.com</a></li>
+                                <li><i class="fa fa-mobile"></i><span class="sr-only">Mobile:</span>(+94) 71 544 0800</li>
+                            </ul>
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//aside-->
+                
+                <aside class="skills aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Tech Skills</h2>
+                        <div class="content">
+                            <p class="intro">
+                                Following are the primary technologies which I prefer to use in my work. But I can learn and adapt to new technologies according to the project I'm working on.</p>
+                            
+                            <div class="skillset">
+                               
+                                <div class="item">
+                                    <h3 class="level-title">Java<span class="level-label" data-toggle="" data-placement="left" data-animation="true" title="">Intermediate</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="70%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Javascript &amp; jQuery<span class="level-label">Intermediate</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="70%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+								
+								<div class="item">
+                                    <h3 class="level-title">PHP<span class="level-label">Advanced</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="75%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">HTML5 &amp; CSS3<span class="level-label">Advanced</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="80%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">MySQL<span class="level-label">Advanced</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="80%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+								
+								<div class="item">
+                                    <h3 class="level-title">MongoDB<span class="level-label">Intermediate</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="55%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <p><a class="more-link" href="https://www.linkedin.com/in/imesh-perera"><i class="fa fa-external-link"></i> More on Linkedin</a></p> 
+                            </div>              
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//section-->
+                
+                
+                <aside class="education aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Education</h2>
+                        <div class="content">
+                            <div class="item">                      
+                                <h3 class="title"><i class="fa fa-graduation-cap"></i> B.Sc. Computer Science and Technology</h3>
+                                <h4 class="university">Uva Wellassa University<span class="year">(Reading)</span></h4>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"><i class="fa fa-graduation-cap"></i> GCE Advanced Level</h3>
+                                <h4 class="university">D.S. Senanayake College, Colombo 07 <span class="year">(2014)</span></h4>
+                            </div><!--//item-->
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                            
+                <aside class="languages aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Languages</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li class="item">
+                                    <span class="title"><strong>Sinhala:</strong></span>
+                                    <span class="level">Native Speaker <br class="visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
+                                </li><!--//item-->
+                                <li class="item">
+                                    <span class="title"><strong>English:</strong></span>
+                                    <span class="level">Professional Proficiency <br class="visible-sm visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half"></i></span>
+                                </li><!--//item-->
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+               
+              
+            </div><!--//secondary-->    
+        </div><!--//row-->
+    </div><!--//masonry-->
+    
+    <!-- ******FOOTER****** --> 
+    <footer class="footer">
+        <div class="container text-center">
+                <small class="copyright">Thank you <a href="http://themes.3rdwavemedia.com" target="_blank">3rd Wave Media</a> for the template :) <i class="fa fa-heart"></i></small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+ 
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
+    <!-- github activity plugin -->
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="http://caseyscarborough.github.io/github-activity/github-activity-0.1.0.min.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>            
 </body>
+</html> 
 
-</html>
